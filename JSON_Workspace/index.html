@@ -1,0 +1,15 @@
+Json:
+
+<div id="output"> </div>
+
+<script>
+  var myObj={"Data":[{"firstname":"Rakesh","lastNmae":"Gowda","age":22},{"firstname":"Ram","lastNmae":"Gowda","age":21}]};
+  myObj.Data[1].salary=20;
+  console.log(myObj);
+  document.getElementById("output").innerHTML=myObj.Data[0].firstname+''+myObj.Data[1].lastNmae;
+
+
+
+
+
+</script>
